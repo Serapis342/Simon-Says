@@ -28,15 +28,21 @@
             tools:layout_editor_absoluteY="1dp"
             android:layout_gravity="center" >
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/green_btn"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/btn_radius" />
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="#085F14"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/red_btn"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/btn_radius" />
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="#5F0808"
+                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,15 +53,21 @@
             tools:layout_editor_absoluteY="1dp"
             android:layout_gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yellow_btn"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/btn_radius" />
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="#DAA815"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blue_btn"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/btn_radius" />
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="#081E5F"
+                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
